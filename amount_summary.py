@@ -94,10 +94,10 @@ def main():
 
 
     # Title
-    st.title('st.file_uploader')
+    st.title('每月汇总')
     
     # Sub-header
-    st.subheader('Input CSV')
+    st.subheader('请放入每月汇总文件xlsx')
     uploaded_file = st.file_uploader("请选择文件", accept_multiple_files=False, type=['xlsx'])
 
 
